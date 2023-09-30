@@ -1,0 +1,88 @@
+html{
+    width: 100%;
+}
+body{
+    background-color: #191919;
+    color: white;
+    width: 100%;
+}
+#home_str{
+    color: #118DA8;
+}
+.nav_list{
+    /*width: 100%;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
+    
+    font-family: sans-serif;
+    display: inline-flex;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+.nav_list li{
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+#logo{
+    font-size: 38px;
+    justify-self: flex-start;
+    margin-right: 10px;
+}
+.nav_element{
+    padding-top: 5px;
+}
+#flex-section{
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+}
+.pic__guy{
+    width: 650px;
+    height: 873px;
+    flex-shrink: 0;
+    border: 12px;
+}
+.pic__lines{
+    position: relative;
+    right: -48px;
+    top: -821px;
+}
+.apps__insc{
+    position: relative;
+    right: -860px;
+    bottom: 630px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.inscription{
+    list-style: none;
+    position: relative;
+    right: -800px;
+    bottom: 670px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88px; 
+    letter-spacing: 3.2px;
+}
+.apps_logo{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    right: -850px;
+    bottom: 620px;
+}
